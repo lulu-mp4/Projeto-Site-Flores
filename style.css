@@ -8,31 +8,47 @@
 h1 {
     font-family: "Dancing Script", cursive;
     font-size: 40px;
-    font-weight: <weight>;
-    font-style: normal;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 h2 {
     font-family: "Dancing Script", cursive;
     font-size: 24px;
-    font-weight: <weight>;
-    font-style: normal;
+    margin-bottom: 20px;
 }
 
 body {
-    background-image: url(assets/fund.jpg);
+    background-image: url(assets/fundo1.jpg);
     background-size: cover;
 }
 
 #page {
     box-sizing: border-box;
-    width: 800px;
+    width: 700px;
+    height: 1500px;
     padding: 24px;
     background-color: #FFFFFF;
     border-radius: 30px;
     margin: 48px auto;
+
 }
 
 img {
-    border-radius: 16px;
+    border-radius: 20px;
+}
+
+main {
+    padding: 24px;
+}
+
+section + section {
+    margin-top: ;
+}
+#about p + p {
+    margin-top: 24px;
+}
+
+h1 + p + p {
+    text-align: center;
 }
