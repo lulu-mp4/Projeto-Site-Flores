@@ -30,13 +30,12 @@ body {
     padding: 24px;
     background-color: #FFFFFF;
     border-radius: 30px;
-    margin: 48px auto;
-
-}
-
+    margin: 48px auto 28px;
 img {
     border-radius: 20px;
+};
 }
+ 
 
 main {
     padding: 24px;
@@ -51,4 +50,14 @@ section + section {
 
 h1 + p + p {
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+    font-family: "Dancing Script", cursive;
+}
+
+footer img {
+    vertical-align: middle;
 }
